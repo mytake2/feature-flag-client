@@ -10,12 +10,10 @@
     "url": "https://github.com/bussin-io/feature-flag-client"
   },
   "keywords": [
-    "logging",
-    "logger",
-    "context",
-    "winston",
-    "console",
-    "async_hooks"
+    "feature",
+    "flag",
+    "client",
+    "launchdarkly"
   ],
   "files": [
     "dist-*/**"

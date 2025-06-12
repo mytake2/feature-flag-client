@@ -1,4 +1,4 @@
-import { BaseContext, IFeatureFlagClient, ILogger } from '@bussin/feature-flag-client/core';
+import { BaseContext, IFeatureFlagClient, ILogger } from '@mytake2/feature-flag-client/core';
 import { LaunchDarklyClient } from './LaunchDarklyClient';
 
 /**

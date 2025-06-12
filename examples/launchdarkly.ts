@@ -1,4 +1,4 @@
-import { LaunchDarkly } from '@bussin/feature-flag-client';
+import { LaunchDarkly } from '@mytake2/feature-flag-client';
 
 const run = async () => {
   try {

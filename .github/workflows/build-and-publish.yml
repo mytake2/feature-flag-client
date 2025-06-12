@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  packages: write
 
 jobs:
   validate_input:
@@ -101,15 +102,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          registry-url: 'https://registry.npmjs.org/'
-          scope: '@bussin'
+          registry-url: 'https://npm.pkg.github.com/'
+          scope: '@mytake2'
           always-auth: true
 
       - name: Publish to NPM
         run: |
           npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish GitHub Release
         id: publish_github_release

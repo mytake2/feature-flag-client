@@ -1,5 +1,5 @@
 {
-  "name": "@bussin/feature-flag-client",
+  "name": "@mytake2/feature-flag-client",
   "version": "0.0.0",
   "description": "A feature flag client wrapper for LaunchDarkly.",
   "author": "wesley.thorsen@gmail.com",
@@ -7,7 +7,7 @@
   "private": false,
   "repository": {
     "type": "github",
-    "url": "https://github.com/bussin-io/feature-flag-client"
+    "url": "https://github.com/mytake2/feature-flag-client"
   },
   "keywords": [
     "feature",

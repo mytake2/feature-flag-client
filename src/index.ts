@@ -1,2 +1,2 @@
-export * from '@bussin/feature-flag-client/core';
-export * as LaunchDarkly from '@bussin/feature-flag-client/launchdarkly';
+export * from '@mytake2/feature-flag-client/core';
+export * as LaunchDarkly from '@mytake2/feature-flag-client/launchdarkly';

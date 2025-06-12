@@ -5,7 +5,7 @@ import {
   FeatureFlagClientGetError,
   IFeatureFlagClient,
   ILogger,
-} from '@bussin/feature-flag-client/core';
+} from '@mytake2/feature-flag-client/core';
 
 export class LaunchDarklyClient implements IFeatureFlagClient {
   public static readonly Anonymous: BaseContext = {

@@ -13,9 +13,9 @@
     "noImplicitReturns": true,
     "outDir": "./dist",
     "paths": {
-      "@bussin/feature-flag-client": ["src/index.ts"],
-      "@bussin/feature-flag-client/core": ["src/core/index.ts"],
-      "@bussin/feature-flag-client/launchdarkly": ["src/launchdarkly/index.ts"]
+      "@mytake2/feature-flag-client": ["src/index.ts"],
+      "@mytake2/feature-flag-client/core": ["src/core/index.ts"],
+      "@mytake2/feature-flag-client/launchdarkly": ["src/launchdarkly/index.ts"]
     },
     "preserveConstEnums": true,
     "removeComments": true,
